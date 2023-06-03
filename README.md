@@ -73,7 +73,7 @@ Hasil dari fungsi `pbinom()` akan disimpan ke dalam variabel `hasil`, yang menun
 
 ### Output:
 
-![Alt text](img/1.c.png)
+![Alt text](img/1c.jpg)
 
 ## Nomor 1.d
 
@@ -108,7 +108,7 @@ Hasil dari fungsi `pbinom()` dengan argumen tersebut akan disimpan ke dalam vari
 
 ### Output:
 
-![Alt text](img/1.d.png)
+![Alt text](img/1d.jpg)
 
 ## Nomor 1.e
 
@@ -140,7 +140,7 @@ Setelah beberapa nilai dihitung, R akan menghasilkan output berupa nilai `nilai_
 
 ### Output:
 
-![Alt text](img/1.e.png)
+![Alt text](img/1e.jpg)
 
 ## Nomor 1.f
 
@@ -177,7 +177,7 @@ Hasilnya adalah sebuah grafik distribusi binomial yang menunjukkan probabilitas 
 
 ### Output:
 
-![Alt text](img/1.f.png)
+![Alt text](img/1f.jpg)
 
 ## Nomor 2
 
@@ -217,7 +217,7 @@ hasil_probabilitas
 Dalam soal tersebut, variabel `hasil_probabilitas` akan menyimpan nilai probabilitas dari kejadian sebanyak 4 kali terjadi dengan rata-rata kejadian sebanyak 1.8 kali.
 
 ### Output:
-![Alt text](img/2.b.png)
+![Alt text](img/2b.jpg)
 
 ## Nomor 2.c
 
@@ -241,7 +241,7 @@ hasil_probabilitas_kumulatif
 Dalam soal tersebut, variabel `hasil_probabilitas_kumulatif` akan menyimpan nilai probabilitas kumulatif dari kejadian sebanyak 4 kali terjadi atau kurang, dengan rata-rata kejadian sebanyak 1.8 kali.
 
 ### Output:
-![Alt text](img/2.c.png)
+![Alt text](img/2c.jpg)
 
 ## Nomor 2.d
 
@@ -268,7 +268,7 @@ hasil_probabilitas_kumulatif
 - `hasil_probabilitas_kumulatif <- ppois(q = jumlah_kejadian, lambda = rata_rata_kejadian, lower.tail = sisi_kiri)`: menghitung probabilitas kumulatif dengan menggunakan fungsi `ppois()`. Fungsi tersebut menerima tiga argumen yaitu `q` (jumlah kejadian), `lambda` (rata-rata kejadian dalam satu waktu), dan `lower.tail` (sisi distribusi yang dihitung). Hasilnya disimpan dalam variabel `hasil_probabilitas_kumulatif`. Pada kode tersebut, probabilitas kumulatif sisi kanan dihitung, sehingga `lower.tail` di-set menjadi `FALSE`
 
 ### Output:
-![Alt text](img/2.d.png)
+![Alt text](img/2d.jpg)
 
 ## Nomor 2.e
 
@@ -294,7 +294,7 @@ print(standar_deviasi)
 - `print(standar_deviasi)`: Menampilkan nilai standar deviasi yang telah dihitung pada baris sebelumnya.
 
 ### Output:
-![Alt text](img/2.e.png)
+![Alt text](img/2e.jpg)
 
 ## Nomor 2.f
 
@@ -322,7 +322,7 @@ plot(n, dpois(n, lambda),
 - `plot(n, dpois(n, lambda), type='h', main='Distribusi Poisson', ylab='Probabilitas', xlab ='Banyak kejadian') `: Menghasilkan plot dengan sumbu x berisi nilai-nilai dari vektor n, dan sumbu y berisi probabilitas distribusi Poisson dengan parameter lambda 1.8 pada setiap titik di sumbu x. Parameter `type='h'` menandakan bahwa plot tersebut akan dihasilkan dalam bentuk histogram. `main` digunakan untuk memberikan judul pada plot, `ylab` digunakan untuk memberikan label pada sumbu y, dan `xlab` digunakan untuk memberikan label pada sumbu x
 
 ### Output:
-![Alt text](img/2.f.png)
+![Alt text](img/2f.jpg)
 
 
 ## Nomor 2.g
@@ -355,7 +355,7 @@ Kode tersebut bertujuan untuk menghasilkan 10 bilangan acak yang mengikuti distr
 - `ans <- unlist(ans)` digunakan untuk mengubah hasil yang awalnya dalam bentuk matriks menjadi vektor, sehingga bisa langsung diakses dan diolah dalam bentuk vektor.
 
 ### Output:
-![Alt text](img/2.g.png)
+![Alt text](img/2g.jpg)
 
 ## Nomor 2.h
 
@@ -396,7 +396,7 @@ ans
 
 ### Output:
 
-![Alt text](img/3.a.png)
+![Alt text](img/3a.jpg)
 
 ## Nomor 3.b
 
@@ -426,7 +426,7 @@ hist(x, xlab = "X", ylab = "Jumlah", main = "Histogram Chi-Square")
 
 ### Output:
 
-![Alt text](img/3.b.png)
+![Alt text](img/3b.jpg)
 
 ## Nomor 3.c
 
@@ -453,7 +453,7 @@ Kedua variabel tersebut merupakan contoh nilai rata-rata dan variansi distribusi
 
 ### Output:
 
-![Alt text](img/3.c.png)
+![Alt text](img/3c.jpg)
 
 ## Nomor 4
 
@@ -525,7 +525,12 @@ plot(data)
 
 ### Output:
 
-![Alt text](img/4.a.png)
+![Alt text](img/4a1.jpg)
+![Alt text](img/4a2.jpg)
+![Alt text](img/4a3.jpg)
+![Alt text](img/4a4.jpg)
+![Alt text](img/4a5.jpg)
+![Alt text](img/4a6.jpg)
 
 ## Nomor 4.b
 
@@ -561,7 +566,7 @@ hist(data, breaks, main = "Histogram distribusi normal")
 
 ### Output:
 
-![Alt text](img/4.b.png)
+![Alt text](img/4b.jpg)
 
 ## Nomor 4.c
 
@@ -597,7 +602,7 @@ Dengan demikian, variabel `varian` akan berisi nilai varian dari distribusi norm
 
 ### Output:
 
-![Alt text](img/4.c.png)
+![Alt text](img/4c.jpg)
 
 ## Nomor 5
 
@@ -628,7 +633,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.a.png)
+![Alt text](img/5a.jpg)
 
 ## Nomor 5.b
 
@@ -658,7 +663,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.b.png)
+![Alt text](img/5b.jpg)
 
 ## Nomor 5.c
 
@@ -683,7 +688,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.c.png)
+![Alt text](img/5c.jpg)
 
 ## Nomor 5.d
 
@@ -708,7 +713,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.d.png)
+![Alt text](img/5d.jpg)
 
 ## Nomor 5.e
 
@@ -733,7 +738,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.e.png)
+![Alt text](img/5e.jpg)
 
 ## Nomor 5.f
 
@@ -758,7 +763,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.f.png)
+![Alt text](img/5f.jpg)
 
 ## Nomor 5.g
 
@@ -783,7 +788,7 @@ ans
 
 ### Output:
 
-![Alt text](img/5.g.png)
+![Alt text](img/5g.jpg)
 
 ## Nomor 5.h
 
@@ -808,4 +813,4 @@ ans
 
 ### Output:
 
-![Alt text](img/5.h.png)
+![Alt text](img/5h.jpg)
