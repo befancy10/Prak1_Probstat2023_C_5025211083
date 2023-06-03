@@ -44,7 +44,7 @@ Hasil dari fungsi `dbinom()` akan disimpan ke dalam variabel `hasil`, yang menun
 
 ### Output:
 
-![Alt text](img/1b.png)
+![Alt text](img/1b.jpg)
 
 ## Nomor 1.c
 
